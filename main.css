@@ -33,3 +33,9 @@ a{
     margin: 1rem;
 }
 
+/* heading */
+
+.profile-card_foto{
+    width: 27.3rem;
+    border-radius: 10px 10px 0px 0px;
+}
