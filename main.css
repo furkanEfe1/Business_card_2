@@ -107,3 +107,23 @@ a{
     box-shadow: 0px 1px 2px rgba(0,0,0,0.5);
     border-radius: 6px;
 }
+
+.profile-card_text_wrapper{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.profile-card_heading_text{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.profile-card_heading_A{
+    color: rgb(39, 28, 105);
+    font-size: 1.35rem;
+}
+
+.profile-card_heading_text{
+    color: #06284f;
+    font-size: 1.1rem;
+}
