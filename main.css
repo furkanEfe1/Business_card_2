@@ -127,3 +127,28 @@ a{
     color: #06284f;
     font-size: 1.1rem;
 }
+
+/* footer */
+
+
+.profile-card_footer{
+    height: 4.5rem;
+    background-color: rgb(126, 150, 195);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 6px 6px;
+}
+
+.profile-card_footer_icon{
+    background-color: #8aa7c8;
+    font-size: 2.5rem;
+    margin-right: 15px;
+    padding: 0.4rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.profile-card:last-of-type{
+    margin-right: 0px;
+}
