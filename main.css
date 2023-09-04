@@ -39,3 +39,71 @@ a{
     width: 27.3rem;
     border-radius: 10px 10px 0px 0px;
 }
+
+.profile-card_body{
+    background-color: rgb(126, 150, 195);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 35px 0px 35px;
+}
+
+.profile-card_heading * + * {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+
+.h1{
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.h2{
+    font-weight: 500;
+    font-size: 1.64rem;
+}
+
+.profile-card_btn_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.profile-card_btn{
+    min-width: 9.5rem;
+    height: 3.4rem;
+    cursor: pointer;
+}
+
+.fa-regular{
+    margin-right: 0.5rem;
+    font-size: 1.4rem;
+}
+
+.fa-brands{
+    margin-right: 0.5rem;
+    font-size: 1.4rem;
+}
+
+.profile-card_btn_email{
+    background: #ffffff;
+    border: 1px solid #d1d5db;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.5);
+    border-radius: 4px;
+}
+
+.profile-card_btn_linkedin{
+    background-color: #5093e2;
+    color: #ffffff;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.5);
+    border-radius: 6px;
+}
