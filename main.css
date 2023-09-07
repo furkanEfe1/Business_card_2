@@ -26,7 +26,6 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    animation: arka-plan-animasyonu 5s infinite;
 }
 
 .profile-card{
