@@ -11,6 +11,7 @@ html {
 }
 
 body {
+    background-color: lightslategray;
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -25,9 +26,6 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(-45deg, #6cace1, #6752de, #6fcaec, #11866a);
-    background-size: 400% 400%;
-    animation: 15s ease infinite;
 }
 
 .profile-card{
